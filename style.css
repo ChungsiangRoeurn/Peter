@@ -1,0 +1,232 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #460983df;
+}
+
+ /* ======== header ========*/    
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 5rem;
+}
+
+.logo {
+  display: flex; /* Flexbox can help center the image and align items */
+  align-items: center; /* Center the image vertically */
+  justify-content: center; /* Center the image horizontally */
+  padding: 1rem; /* Add padding around the logo */
+  margin: 1rem 0 0 2rem;
+  width: 17rem;
+}
+
+.logo img {
+  display: block;
+  width: 60%;
+  padding: auto;
+}
+
+.menu {
+  display: flex;
+}
+
+li {
+  display: block;
+  padding: 0.3rem 4rem;
+  margin-top: 9px;
+}
+
+li .normal {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  color: rgb(255, 136, 136);
+  text-decoration: none;
+}
+
+.normal-first {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  color: rgb(245, 215, 215);
+}
+
+.down {
+  color: #51237f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+}
+
+.down {
+  background-color: goldenrod;
+  color: 51237f);
+  padding: 10px 15px;
+  border-radius: 34rem;
+}
+
+.down:hover {
+  background-color: rgb(211, 161, 104);
+}
+
+/* .normal::hover {
+  color: white;
+} */
+
+hr {
+  outline: none;
+  border: none;
+  height: 1px;
+  background-color: #965c5c;
+}
+
+/* ========Describe the main idea======== */
+
+section .describing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-idea {
+  color: rgb(237, 180, 180);
+  text-align: center;
+}
+
+.telling {
+  margin: 10rem 0 -1rem 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 4rem;
+
+}
+
+.mores {
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search-container {
+  height: 4rem;
+  max-width: 50%;
+  width: 100%; 
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 90px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 6rem auto;
+}
+
+.form {
+  display: flex; 
+  width: 100%;
+  border: none;
+}
+
+.form input {
+  border: none;
+  margin-left: 5rem;
+  font-size: 2rem;
+  outline: none; 
+  text-align: center;
+  flex-grow: 1;
+}
+
+.form button {
+  color: #fff; 
+  margin: 0 3rem 0 3rem;
+  font-size: 2rem;
+  border-radius: 50px;
+  height: 4rem;
+  width: 11rem; 
+  background-color: #7b5d9a;
+  border: none;
+}
+
+.grid-case {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between; 
+  /* background-color: green; */
+  align-items: center; 
+  width: 100%;
+  height: auto; 
+  padding: 0px; 
+  gap: 1rem;
+  margin-bottom: 0rem;
+}
+
+.items-box {
+  margin: auto;
+  height: auto%;
+  width: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 0;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.items-box img {
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.get-in {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  height: 100vh;
+  /* background-color: burlywood; */
+  padding-top: 20rem; 
+}
+
+h2 {
+  text-decoration: underline;
+  color: rgb(99, 237, 255);
+  font-family: unset;
+  font-size: 3.2rem;
+  text-align: center; 
+  margin-bottom: 20px; 
+  width: 100%; 
+}
+
+#second{
+  outline: #000000;
+  margin-bottom: -10rem;
+}
+
+.container {
+  display: flex; 
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.container img {
+  border-radius: 40px;
+  height: auto;
+  padding: 2rem;
+  margin-top: 10rem; 
+}
+
+.footer {
+  margin-top: 200px;
+  background-color: #241e1e;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 3px;
+  color: #bbb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+}
